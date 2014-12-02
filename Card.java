@@ -8,11 +8,20 @@ public class Card
 private final int rank;
 private final int suit;
 
-public final static int SPADES = 0, CLUBS = 1,
-HEARTS = 2, DIAMONDS = 3;//declare public variables
+public static enum  Suit{
+   SPADES(0),
+   CLUBS(1),
+   HEARTS(2),
+   DIAMONDS(3);
+}
 
-public final static int ACE = 14, JACK = 11, QUEEN = 12, 
-KING = 13;
+public static enum  Suit{
+   ACE(14),
+   JACK (11), 
+   QUEEN (12), 
+   KING (13);
+}
+
 
 /**
 Default constructor sets rank and suit to null
