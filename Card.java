@@ -26,8 +26,8 @@ rank = 0;
 
 /**
 Accepts suit and rank
-@param suit, suit of card
-@param rank, rank of card
+@param suit suit of card
+@param rank rank of card
 */
 public Card(int suit, int rank)
 {
@@ -89,7 +89,7 @@ public String toString()
 
 /**
 checks to see if one card equals another
-@param Card otherCard, card object to compare to
+@param otherCard otherCard, card object to compare to
 @return status, returns status of true or false
 */
 public boolean equals(Card otherCard)

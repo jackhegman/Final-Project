@@ -1,7 +1,7 @@
 /* John Hegman
    CS 110
    Assignment #10
-   Deck Class
+   Hand Class
 */
 
 import java.util.*;
@@ -71,7 +71,7 @@ return player2.get(0);
 
 /**
 In case of draw gets the second card in hand
-@return player1 player 1's second card
+@return player 1's second card
 */
 public Card showNextOne()
 {
@@ -81,7 +81,7 @@ return player1.get(1);
 
 /**
 In case of draw gets the second card in hand
-@return player2 player 2's second card
+@return player 2's second card
 */
 public Card showNextTwo()
 {
